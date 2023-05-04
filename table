@@ -1,0 +1,99 @@
+<table class="premier-league">
+    <style>
+      .premier-league {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+      }
+  
+      .premier-league th,
+      .premier-league td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+  
+      .premier-league th {
+        background-color: #f2f2f2;
+      }
+  
+      .premier-league tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+  
+      .premier-league tbody tr:hover {
+        background-color: #ddd;
+      }
+  
+      .premier-league tbody td:first-child {
+        font-weight: bold;
+      }
+  
+      .premier-league tbody td:nth-child(2) {
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+  
+      .premier-league tbody td img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+      }
+  
+      .premier-league tbody td:last-child {
+        font-weight: bold;
+      }
+    </style>
+    <thead>
+      <tr>
+        <th>Position</th>
+        <th>Team</th>
+        <th>Played</th>
+        <th>Won</th>
+        <th>Drawn</th>
+        <th>Lost</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          <img src="https://3.bp.blogspot.com/-CR_2muWX-7s/WI3ZYwIGwLI/AAAAAAAAE7k/OltdjQk6648IYZ0aqqVVfl4kSCyo3I4ngCLcB/s600/Manchester%2BCity.png" alt="Manchester City Logo">
+          Manchester City
+        </td>
+        <td>35</td>
+        <td>27</td>
+        <td>5</td>
+        <td>3</td>
+        <td>86</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          <img src="https://www.logofootball.net/wp-content/uploads/Manchester-United-FC-Logo.png" alt="Manchester United Logo">
+          Manchester United
+        </td>
+        <td>35</td>
+        <td>21</td>
+        <td>9</td>
+        <td>5</td>
+        <td>72</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          <img src="https://www.logofootball.net/wp-content/uploads/Liverpool-FC-Logo.png" alt="Liverpool Logo">
+          Liverpool
+        </td>
+        <td>35</td>
+        <td>20</td>
+        <td>9</td>
+        <td>6</td>
+        <td>69</td>
+      </tr>
+      <!-- more rows for the other teams -->
+    </tbody>
+  </table>
+  
